@@ -1,8 +1,8 @@
 
-function TodoList(props) {
+function TodoList({ children }) {
     return (
         <ul>
-            {props.childran}
+            {children}
         </ul>
     );
 

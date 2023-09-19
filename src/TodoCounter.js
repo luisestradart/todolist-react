@@ -1,8 +1,8 @@
 
-function TodoCounter() {
+function TodoCounter({ total, completed }) {
     return (
         <h1>
-            Haz completado 
+            Haz completado {completed} de {total} TODOS
         </h1>
     );
 
